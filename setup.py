@@ -64,7 +64,7 @@ def check_proj_version(proj_version: tuple[int, int, int]) -> None:
             "https://pyproj4.github.io/pyproj/stable/installation.html"
         )
 
-set PROJ_DIR = /PROJ/
+set PROJ_DIR = /data/data/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages
 def get_proj_dir() -> Path:
     """
     This function finds the base PROJ directory.
