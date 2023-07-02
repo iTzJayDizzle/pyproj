@@ -64,7 +64,7 @@ def check_proj_version(proj_version: tuple[int, int, int]) -> None:
             "https://pyproj4.github.io/pyproj/stable/installation.html"
         )
 
-def set PROJ_DIR = /DATA/
+set PROJ_DIR = /PROJ/
 def get_proj_dir() -> Path:
     """
     This function finds the base PROJ directory.
